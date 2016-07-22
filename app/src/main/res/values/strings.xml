@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="author">Author</string>
+    <string name="authors">AUTHOR</string>
+    <string name="ctagory">Ctagory</string>
+    <string name="this_is_catagorylist">this is catagorylist</string>
+    <string name="authorlist">this is author list</string>
+    <string name="category">CATEGORY</string>
+</resources>

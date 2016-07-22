@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="org.example.bitmtraier401.myapplication.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="iLibrary"
+        android:id="@+id/showtext"
+        android:textSize="50dp"
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/authorbtn"
+        android:layout_margin="90dp"
+        android:text="@string/authors"
+        android:textSize="20dp"
+        android:onClick="nextpage"
+        android:layout_below="@+id/showtext"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/categorybtn"
+        android:layout_height="wrap_content"
+        android:text="@string/category"
+        android:textSize="20dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:onClick="anothernextpage"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/authorbtn"
+        android:layout_alignEnd="@+id/authorbtn" />
+</RelativeLayout>
